@@ -1,0 +1,173 @@
+========= INVENTORY MANAGEMENT SYSTEM =========
+1. Add Product
+2. Update Product Quantity
+3. Display Products (Sorted)
+4. Low Stock Alerts
+5. Transaction History
+6. Inventory Statistics
+7. Undo Last Update
+8. Exit
+Enter choice: 1
+Enter SKU: PROD001
+Enter Product Name: Laptop
+Enter Category: Eletronics
+Enter Price: 80000
+Enter Quantity: 12
+Product added successfully!
+
+========= INVENTORY MANAGEMENT SYSTEM =========
+1. Add Product
+2. Update Product Quantity
+3. Display Products (Sorted)
+4. Low Stock Alerts
+5. Transaction History
+6. Inventory Statistics
+7. Undo Last Update
+8. Exit
+Enter choice: 1
+Enter SKU: PROD002
+Enter Product Name: Tablets
+Enter Category: Electronics
+Enter Price: 15000 
+Enter Quantity: 11
+Product added successfully!
+
+========= INVENTORY MANAGEMENT SYSTEM =========
+1. Add Product
+2. Update Product Quantity
+3. Display Products (Sorted)
+4. Low Stock Alerts
+5. Transaction History
+6. Inventory Statistics
+7. Undo Last Update
+8. Exit
+Enter choice: 1
+Enter SKU: PROD112
+Enter Product Name: Shirt
+Enter Category: Cloths
+Enter Price: 1200
+Enter Quantity: 150
+Product added successfully!
+
+========= INVENTORY MANAGEMENT SYSTEM =========
+1. Add Product
+2. Update Product Quantity
+3. Display Products (Sorted)
+4. Low Stock Alerts
+5. Transaction History
+6. Inventory Statistics
+7. Undo Last Update
+8. Exit
+Enter choice: 2
+Enter SKU to Update: PROD002
+Enter New Quantity: 2
+Quantity updated successfully!
+
+========= INVENTORY MANAGEMENT SYSTEM =========
+1. Add Product
+2. Update Product Quantity
+3. Display Products (Sorted)
+4. Low Stock Alerts
+5. Transaction History
+6. Inventory Statistics
+7. Undo Last Update
+8. Exit
+Enter choice: 3
+Sort by (sku/price/value/name): name
+
+=== PRODUCTS SORTED BY NAME ===
+SKU        Name                 Category        Price      Qty      Value
+-------------------------------------------------------------------------------------
+PROD001    Laptop               Eletronics      ?80000.00  12       ?960000.00
+PROD112    Shirt                Cloths          ?1200.00   150      ?180000.00
+PROD002    Tablets              Electronics     ?15000.00  2        ?30000.00
+
+========= INVENTORY MANAGEMENT SYSTEM =========
+1. Add Product
+2. Update Product Quantity
+3. Display Products (Sorted)
+4. Low Stock Alerts
+5. Transaction History
+6. Inventory Statistics
+7. Undo Last Update
+8. Exit
+Enter choice: 4
+
+=== LOW STOCK ALERTS ===
+No low stock items!
+
+========= INVENTORY MANAGEMENT SYSTEM =========
+1. Add Product
+2. Update Product Quantity
+3. Display Products (Sorted)
+4. Low Stock Alerts
+5. Transaction History
+6. Inventory Statistics
+7. Undo Last Update
+8. Exit
+Enter choice: 2
+Enter SKU to Update: PROD002
+Enter New Quantity: 0
+Quantity updated successfully!
+
+
+========= INVENTORY MANAGEMENT SYSTEM =========
+1. Add Product
+2. Update Product Quantity
+3. Display Products (Sorted)
+4. Low Stock Alerts
+5. Transaction History
+6. Inventory Statistics
+7. Undo Last Update
+8. Exit
+Enter choice: 5
+How many transactions to display? 2
+
+=== LAST 2 TRANSACTIONS ===
+UPDATE: PROD002 Quantity 2 -> 0 at Mon Jan 19 23:01:31 IST 2026
+UPDATE: PROD002 Quantity 11 -> 2 at Mon Jan 19 23:00:40 IST 2026
+
+========= INVENTORY MANAGEMENT SYSTEM =========
+1. Add Product
+2. Update Product Quantity
+3. Display Products (Sorted)
+4. Low Stock Alerts
+5. Transaction History
+6. Inventory Statistics
+7. Undo Last Update
+8. Exit
+Enter choice: 6
+
+=== INVENTORY STATISTICS ===
+Total Products: 3
+Total Inventory Value: ?1140000.00
+
+Category-wise Breakdown:
+? Eletronics: 1 products, Value: ?960000.00 (84.2%)
+? Cloths: 1 products, Value: ?180000.00 (15.8%)
+? Electronics: 1 products, Value: ?0.00 (0.0%)
+
+========= INVENTORY MANAGEMENT SYSTEM =========
+1. Add Product
+2. Update Product Quantity
+3. Display Products (Sorted)
+4. Low Stock Alerts
+5. Transaction History
+6. Inventory Statistics
+7. Undo Last Update
+8. Exit
+Enter choice: 7
+Quantity updated successfully!
+Last update undone!
+
+========= INVENTORY MANAGEMENT SYSTEM =========
+1. Add Product
+2. Update Product Quantity
+3. Display Products (Sorted)
+4. Low Stock Alerts
+5. Transaction History
+6. Inventory Statistics
+7. Undo Last Update
+8. Exit
+Enter choice: 8
+? Exiting... Thank you!
